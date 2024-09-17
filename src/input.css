@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing-card{
+    @apply flex flex-col items-start justify-center gap-10 bg-[#F4F6FC] py-16 px-10 rounded-md text-mainTextColor sm:w-full;
+}

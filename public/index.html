@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="flex items-center justify-center w-full bg-mainColor text-white">
+        <nav class="flex items-center justify-between w-full py-5 px-24 max-w-[1440px] md:px-5 sm:px-1">
+            <h1 class="text-2xl font-bold">{Finsweet</h1>
+            <div class="flex items-center justify-center gap-10">
+                <ul class="flex items-center justify-center gap-10 lg:hidden">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <button
+                    class="border-2 px-7 py-3 rounded-full border-[#ffffff20] duration-500 hover:bg-white hover:text-mainColor">Contact
+                    us</button>
+            </div>
+            <i class="fa-solid fa-bars !hidden lg:!inline-block"></i>
+        </nav>
+    </header>
+    <main class="flex items-center justify-center flex-col">
+        <section id="pricing" class="py-10 px-24 flex flex-col items-start justify-center gap-10 xl:px-5">
+            <div class="pricing-header flex flex-col text-center px-96 gap-5 xl:px-5">
+                <h1 class="text-4xl font-semibold text-mainTextColor">Our Pricing Plans</h1>
+                <p class="opacity-70">When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you
+                    bring your designs to life — without coding them.</p>
+            </div>
+            <div class="pricing-main flex items-center justify-between w-full xl:flex-wrap xl:justify-center xl:gap-5">
+                <div class="pricing-card w-[350px]">
+                    <div class="flex flex-col gap-5">
+                        <h1 class="text-3xl flex items-center gap-2">299$ <span class="text-[#2405F2] text-sm">Per
+                                design</span></h1>
+                        <h3 class="text-2xl font-medium">Landing page</h3>
+                        <p class="opacity-70">When you’re ready to go beyond prototyping in Figma, </p>
+                    </div>
+                    <ul class="flex flex-col gap-4">
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                    </ul>
+                    <div class="flex items-center justify-center w-full">
+                        <button
+                            class="px-16 py-3 bg-mainTextColor text-white rounded-full border-2 border-mainTextColor hover:bg-transparent hover:text-mainTextColor">Get
+                            Started</button>
+                    </div>
+                </div>
+                <div class="pricing-card w-[350px] !bg-mainColor !text-white">
+                    <div class="flex flex-col gap-5">
+                        <h1 class="text-3xl flex items-center gap-2">299$ <span class="text-[#FCD980] text-sm">Per
+                                design</span></h1>
+                        <h3 class="text-2xl font-medium">Landing page</h3>
+                        <p class="opacity-70">When you’re ready to go beyond prototyping in Figma, </p>
+                    </div>
+                    <ul class="flex flex-col gap-4">
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                    </ul>
+                    <div class="flex items-center justify-center w-full">
+                        <button
+                            class="px-16 py-3 bg-[#FCD980] text-mainColor rounded-full border-2 border-[#FCD980] hover:bg-transparent hover:text-white">Get
+                            Started</button>
+                    </div>
+                </div>
+                <div class="pricing-card w-[350px]">
+                    <div class="flex flex-col gap-5">
+                        <h1 class="text-3xl flex items-center gap-2">299$ <span class="text-[#2405F2] text-sm">Per
+                                design</span></h1>
+                        <h3 class="text-2xl font-medium">Landing page</h3>
+                        <p class="opacity-70">When you’re ready to go beyond prototyping in Figma, </p>
+                    </div>
+                    <ul class="flex flex-col gap-4">
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <i class="fa-solid fa-play text-green-400"></i>All limited links
+                        </li>
+                    </ul>
+                    <div class="flex items-center justify-center w-full">
+                        <button
+                            class="px-16 py-3 bg-mainTextColor text-white rounded-full border-2 border-mainTextColor hover:bg-transparent hover:text-mainTextColor">Get
+                            Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="questions" class="flex items-start justify-between w-full p-24 lg:flex-col lg:justify-center lg:items-center lg:text-center lg:gap-10 md:px-2">
+            <div class="flex flex-col gap-4">
+                <h1 class="text-5xl font-semibold">Frequently asked questions</h1>
+                <a href="#" class="text-indigo-600 hover:underline">Contact us For More Info</a>
+            </div>
+            <div class="w-7/12 lg:w-full">
+                <ul class="w-full space-y-2">
+                    <li class="border-b border-gray-200 p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <span class="text-indigo-600 font-bold mr-4">01</span>
+                                <span class="font-medium">How much time does it take ?</span>
+                            </div>
+                            <i class="fa-solid fa-close text-gray-500"></i>
+                        </div>
+                        <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li class="border-b border-gray-200">
+                        <div class="flex items-center justify-between p-4">
+                            <div class="flex items-center">
+                                <span class="text-indigo-600 font-bold mr-4">02</span>
+                                <span class="font-medium">What is your class naming convention ?</span>
+                            </div>
+                            <i class="fa-solid fa-plus text-gray-500"></i>
+                        </div>
+                    </li>
+                    <li class="border-b border-gray-200">
+                        <div class="flex items-center justify-between p-4">
+                            <div class="flex items-center">
+                                <span class="text-indigo-600 font-bold mr-4">03</span>
+                                <span class="font-medium">How do we communicate ?</span>
+                            </div>
+                            <i class="fa-solid fa-plus text-gray-500"></i>
+                        </div>
+                    </li>
+                    <li class="border-b border-gray-200">
+                        <div class="flex items-center justify-between p-4">
+                            <div class="flex items-center">
+                                <span class="text-indigo-600 font-bold mr-4">04</span>
+                                <span class="font-medium">I have a bigger project. Can you handle it ?</span>
+                            </div>
+                            <i class="fa-solid fa-plus text-gray-500"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex items-center justify-between p-4">
+                            <div class="flex items-center">
+                                <span class="text-indigo-600 font-bold mr-4">05</span>
+                                <span class="font-medium">What is your class naming convention ?</span>
+                            </div>
+                            <i class="fa-solid fa-plus text-gray-500"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="flex items-center justify-between w-full p-24 bg-mainColor text-white gap-20 lg:flex-col sm:p-3">
+        <div class="flex flex-col items-start justify-center gap-5 lg:w-full">
+            <div class="flex flex-col gap-5">
+                <h1 class="text-2xl font-bold">{Finsweet</h1>
+                <p class="opacity-70">We are always open to discuss your project and improve your online presence.</p>
+            </div>
+            <div class="flex gap-5 bg-[#fcd980] text-black py-5 px-10 sm:w-full sm:px-3">
+                <div>
+                    <h3 class="font-semibold">Email at me</h3>
+                    <p class="opacity-70">contact@website.com</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold">Call us</h3>
+                    <p class="opacity-70">0927 6277 28525</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-10 w-6/12 lg:w-full">
+            <h1 class="text-4xl font-bold">Lets Talk!</h1>
+            <p class="opacity-70">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+            <div class="flex gap-5">
+                <i class="fa-brands fa-facebook hover:text-yellow-300 duration-300 hover:scale-110"></i>
+                <i class="fa-brands fa-twitter hover:text-yellow-300 duration-300 hover:scale-110"></i>
+                <i class="fa-brands fa-instagram hover:text-yellow-300 duration-300 hover:scale-110"></i>
+                <i class="fa-brands fa-linkedin hover:text-yellow-300 duration-300 hover:scale-110"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
